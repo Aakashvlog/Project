@@ -1,0 +1,26 @@
+.message-block {
+  //   border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+#message {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+button {
+  height: 33px;
+  width: 143px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: #ebe5e5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

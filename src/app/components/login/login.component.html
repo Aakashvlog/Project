@@ -1,0 +1,17 @@
+<h1>Login Pages!</h1>
+
+<form [formGroup]="user">
+  <input type="text" placeholder="Email" formControlName="email" /><br /><br />
+  <input
+    type="text"
+    placeholder="Password"
+    formControlName="password"
+  /><br /><br />
+  <button [disabled]="user.invalid" (click)="loginSubmit(user.value)">
+    Login
+  </button>
+  &nbsp;
+  <small>
+    <a routerLink="../forgot-password">Forgot Password</a>
+  </small>
+</form>

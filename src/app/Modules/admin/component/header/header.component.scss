@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  //   padding-top: 0px;
+}
